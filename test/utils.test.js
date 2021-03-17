@@ -43,7 +43,7 @@ describe('Utils', () => {
             expect(acharCaracter(10, 'abcde', 'c'))
                 .toBe('comprimento fornecido diferente do comprimento real');
         });
-        test('comprimento diferente do tamanho da cadeia', () => {
+        test('caracter não existe dentro da cadeia', () => {
             expect(acharCaracter(5, 'abcde', 'z'))
                 .toBe('caracter não encontrado');
         });
